@@ -13,7 +13,7 @@ namespace FirstTaskXamarin
 		{
 			InitializeComponent();
 
-			MainPage = new QuotesPage();
+			MainPage = new StackLayoutPage();
 		}
 
 		protected override void OnStart ()
