@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FirstTaskXamarin.StackLayout_InstaPage"
+             BackgroundColor="White">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="10">
+                <Label Text="Welcome to Xamarin.Forms!" TextColor="Black"/>
+            </StackLayout>
+
+                <Image Source="http://lorempixel.com/1920/1080/nature/3/"/>
+
+                <StackLayout Orientation="Horizontal"
+                     Padding="10,0"
+                     Spacing="20">
+                    <Button Text="Like" 
+                        TextColor="#1dabf0" 
+                        BackgroundColor="White"/>
+                    <Button Text="Comment" 
+                        TextColor="#1dabf0" 
+                        BackgroundColor="White"/>
+                    <Button Text="Share" 
+                        TextColor="#1dabf0" 
+                        BackgroundColor="White"/>
+
+                </StackLayout>
+                <StackLayout Padding="10">
+                    <BoxView Color="#f0f0f0" 
+                     HeightRequest="1"/>
+                    <Label Text="700 Likes" 
+                   FontAttributes="Bold"
+                           TextColor="Black"
+                           FontSize="20"/>
+                <Label Text="This design is similar to Instagram app.You can see that a few elements arestacked vertically"  
+                           FontSize="18"/>
+                </StackLayout>
+
+            </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

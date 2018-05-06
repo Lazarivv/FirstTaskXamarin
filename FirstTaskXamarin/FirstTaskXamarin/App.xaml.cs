@@ -13,8 +13,9 @@ namespace FirstTaskXamarin
 		{
 			InitializeComponent();
 
-			MainPage = new StackLayoutPage();
-		}
+			MainPage = new StackLayout_InstaPage();
+            
+        }
 
 		protected override void OnStart ()
 		{
