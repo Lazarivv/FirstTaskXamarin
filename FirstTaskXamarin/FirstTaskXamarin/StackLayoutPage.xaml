@@ -18,12 +18,14 @@
 
             <Button Text="Login" 
                     Clicked="Handle_Clicked"
+                    TextColor="White"
                     HorizontalOptions="Fill"
                     BackgroundColor="#1dabf0"
                    />
 
             <Button Text="Register" 
                     Clicked="Handle_Clicked2"
+                    TextColor="White"
                     HorizontalOptions="Fill"
                     BackgroundColor="#1dabf0"/>
 
