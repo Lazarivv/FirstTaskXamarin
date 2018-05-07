@@ -13,7 +13,7 @@ namespace FirstTaskXamarin
 		{
 			InitializeComponent();
 
-			MainPage = new StackLayout_InstaPage();
+			MainPage = new GridPagePhoneNumbers();
             
         }
 
