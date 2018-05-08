@@ -13,7 +13,7 @@ namespace FirstTaskXamarin
 		{
 			InitializeComponent();
 
-			MainPage = new AbsoluteLayoutPageSecondExersice();
+			MainPage = new FirstTaskXamarin.MainPage();
             
         }
 
