@@ -13,7 +13,7 @@ namespace FirstTaskXamarin
 		{
 			InitializeComponent();
 
-			MainPage = new GridPagePhoneNumbers();
+			MainPage = new AbsoluteLayoutPageSecondExersice();
             
         }
 
